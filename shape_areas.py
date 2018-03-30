@@ -29,7 +29,7 @@ def polygon(n,l,mod=math):
     else:
         return ((n/8)*l**2)*mod.sin(2*mod.pi/n)/((mod.sin(mod.pi/n))**2)
 
-# Compute area of circle given its radius.
+# Compute area of circle given its radius r.
 
 def circle(r,mod=math):
     if (r < 0):
